@@ -1,0 +1,13 @@
+name: programming-languages-in-data-science
+
+services:
+  r-notebook:
+    container_name: R-Notebook
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    restart: unless-stopped
+    ports:
+      - ${JUPYTER_PORT}:8888
+    volumes:
+      - ./notebooks/shipping.ipynb:/home/jovyan/work/shipping.ipynb
