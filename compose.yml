@@ -10,4 +10,5 @@ services:
     ports:
       - ${JUPYTER_PORT}:8888
     volumes:
-      - ./notebooks/shipping.ipynb:/home/jovyan/work/shipping.ipynb
+      - ./notebooks/product_cost.ipynb:/home/jovyan/work/product_cost.ipynb
+      - ./notebooks/customer_rating.ipynb:/home/jovyan/work/customer_rating.ipynb
