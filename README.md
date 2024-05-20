@@ -6,7 +6,7 @@ Provides version controlled solution for university class project regarding R, P
 ### Branches
 For each language there is a branch containing the notebook and the corresponding data file gziped.
 
-#### R-Notebook
+#### R-Notebook (main branch)
 Built on top of base image:
 - data sample to test usage: shipping.csv.gz ([source](https://www.kaggle.com/datasets/nayanack/shipping/code "Shipping dataset"))
 
@@ -21,5 +21,3 @@ The Jupyter environment can be accessed with a token that is generated on each r
 2024-04-12 08:09:48         http://127.0.0.1:8888/lab?token=8977d252bba2b66cb6ecbf2ee900268c7f9c38a53ff96e2c
 ...
 ```
-
-After starting the Spark session through Python you can also access SparkUI on the specified port given in .env.
