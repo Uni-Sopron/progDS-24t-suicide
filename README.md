@@ -6,9 +6,9 @@ Provides version controlled solution for university class project regarding R, P
 ### Branches
 For each language there is a branch containing the notebook and the corresponding data file gziped.
 
-#### R-Notebook (main branch)
+#### #### Julia-Notebook
 Built on top of base image:
-- data sample to test usage: shipping.csv.gz ([source](https://www.kaggle.com/datasets/nayanack/shipping/code "Shipping dataset"))
+- data sample to test usage: suicide.tar.gz ([source](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016 "Suicide Rates Overview 1985 to 2016"))
 
 ### Jupyter Notebook
 

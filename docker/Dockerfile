@@ -1,5 +1,5 @@
-FROM quay.io/jupyter/r-notebook:r-4.3.3
+FROM quay.io/jupyter/julia-notebook:julia-1.10.3
 
 WORKDIR /home/jovyan/work
 
-ADD ./docker/shipping.tar.gz /home/jovyan/work/
+ADD ./docker/suicide.tar.gz /home/jovyan/work/

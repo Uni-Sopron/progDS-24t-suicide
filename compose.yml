@@ -1,8 +1,8 @@
 name: programming-languages-in-data-science
 
 services:
-  r-notebook:
-    container_name: R-Notebook
+  julia-notebook:
+    container_name: Julia-Notebook
     build:
       context: .
       dockerfile: ./docker/Dockerfile
@@ -10,4 +10,4 @@ services:
     ports:
       - ${JUPYTER_PORT}:8888
     volumes:
-      - ./notebooks/product_cost.ipynb:/home/jovyan/work/product_cost.ipynb
+      - ./notebooks/suicide.ipynb:/home/jovyan/work/suicide.ipynb
