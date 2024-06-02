@@ -1,0 +1,13 @@
+name: programming-languages-in-data-science
+
+services:
+  julia-notebook:
+    container_name: Julia-Notebook
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    restart: unless-stopped
+    ports:
+      - ${JUPYTER_PORT}:8888
+    volumes:
+      - ./notebooks/suicide.ipynb:/home/jovyan/work/suicide.ipynb
